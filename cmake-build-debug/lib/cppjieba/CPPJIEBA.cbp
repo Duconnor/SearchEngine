@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPJIEBA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\cppjieba\;CMake Files\lib\cppjieba\deps\;CMake Files\lib\cppjieba\deps\gtest\;CMake Files\lib\cppjieba\test\;CMake Files\lib\cppjieba\test\unittest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/."/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/."/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="load_test">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/load_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 load_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="load_test/fast">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/load_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 load_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.run">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/test.run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLOGGING_LEVEL=LL_WARNING"/>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 test.run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.run/fast">
+				<Option output="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/test.run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLOGGING_LEVEL=LL_WARNING"/>
+					<Add directory="/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/include"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps"/>
+					<Add directory="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 test.run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/CLionProjects/SearchEngine/cmake-build-debug/lib/cppjieba/test/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/demo.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/load_test.cpp">
+			<Option target="load_test"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/gtest_main.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/jieba_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/keyword_extractor_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/pos_tagger_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/pre_filter_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/segments_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/textrank_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/trie_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/unicode_test.cpp">
+			<Option target="test.run"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cppjieba\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cppjieba\deps\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/deps/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cppjieba\deps\gtest\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cppjieba\test\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/CLionProjects/SearchEngine/lib/cppjieba/test/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cppjieba\test\unittest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
