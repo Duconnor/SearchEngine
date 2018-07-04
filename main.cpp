@@ -80,12 +80,51 @@ int main() {
 #endif
 
 #include "searchengine.h"
+#include <iostream>
+
+void demo();
 
 int main() {
     SearchEngine searchEngine;
     while (true) {
         // searchEngine.booleanSearchWithIndegreeRank();
-        searchEngine.booleanSearchWithIndegreeRankAndFrequencyCount();
+        std::cout << "\033[31;4m" << "input search term here: " << "\e[0m";
+        string searchTerm;
+        std::cin >> searchTerm;
+        if (searchTerm == "demo")
+            demo();
+        else if (searchTerm == "break")
+            break;
+        else
+            searchEngine.booleanSearchWithIndegreeRankAndFrequencyCount(searchTerm);
     }
     return 0;
+}
+
+
+void demo() {
+    SearchEngine searchEngine;
+    string stringArray[] = {"假期实习", "篮球比赛", "足球", "中国特色社会主义", "社会主义核心价值观", "中国梦", "计算机科学与技术", "南大新闻网", "音乐会", "青共校学习",
+                            "实习岗位", "社会实践", "习近平", "张异宾", "南京大学"};
+    const int PHASEACCU = 10, PHASEINDEGREE = 12, PHASENAME = 14, PHASETIME = 15;
+    std::cout << "demo start..." << std::endl;
+    string control;
+    std::cin >> control;
+    int count = 0;
+    while (control == "n" && count < PHASETIME) {
+        if (count < PHASEACCU)
+            std::cout << "Showing accuracy" << std::endl;
+        else if (count < PHASEINDEGREE)
+            std::cout << "Showing indegree rank" << std::endl;
+        else if (count < PHASENAME)
+            std::cout << "Showing name search" << std::endl;
+        else
+            std::cout << "Showing search latency" << std::endl;
+        std::cout << "Now search" << stringArray[count];
+        searchEngine.booleanSearchWithIndegreeRankAndFrequencyCount(stringArray[count]);
+        count++;
+        std::cout << "next?:";
+        std::cin >> control;
+    }
+    std::cout << "demo end" << std::endl;
 }

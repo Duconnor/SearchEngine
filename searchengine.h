@@ -7,6 +7,7 @@
 #include "invertedlist.h"
 
 const string CONTENTFILENAME = "/Users/duyx/ClionProjects/SearchEngine/content_final/content";
+const string NEWCONTENTFILENAME = "/Users/duyx/ClionProjects/SearchEngineWithJieba/cppjieba/content/content";
 const string LINKRELATIONFILENAME = "/Users/duyx/ClionProjects/SearchEngine/linkrelation.txt";
 
 class SearchEngine {
@@ -26,14 +27,14 @@ private:
 
     static int compareByIndegreeAndFrequency(const void *A, const void *B);
 
-    List normalBooleanSearch();
+    List normalBooleanSearch(string &searchTerm);
 
 public:
     SearchEngine();
 
-    void booleanSearchWithIndegreeRank();
+    void booleanSearchWithIndegreeRank(string &inputTerm);
 
-    void booleanSearchWithIndegreeRankAndFrequencyCount();
+    void booleanSearchWithIndegreeRankAndFrequencyCount(string &inputTerm);
 };
 
 

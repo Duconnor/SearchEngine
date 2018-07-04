@@ -76,10 +76,7 @@ SearchEngine::SearchEngine() {
     std::cout << "search engine is ready to roll" << std::endl;
 }
 
-List SearchEngine::normalBooleanSearch() {
-    std::cout << "input search term here: ";
-    string searchTerm;
-    std::cin >> searchTerm;
+List SearchEngine::normalBooleanSearch(string &searchTerm) {
     cppjieba::Jieba jieba(DICT_PATH, HMM_PATH, USER_DICT_PATH, IDF_PATH, STOP_WORD_PATH);
     vector<string> words;
     jieba.CutForSearch(searchTerm, words);
@@ -106,8 +103,8 @@ List SearchEngine::normalBooleanSearch() {
     return result;
 }
 
-void SearchEngine::booleanSearchWithIndegreeRank() {
-    List result = normalBooleanSearch();
+void SearchEngine::booleanSearchWithIndegreeRank(string &inputTerm) {
+    List result = normalBooleanSearch(inputTerm);
     auto all = new int[result.getSize()];
     result.getAll(all);
     auto pages = new Page[result.getSize()];
@@ -128,8 +125,8 @@ void SearchEngine::booleanSearchWithIndegreeRank() {
     }
 }
 
-void SearchEngine::booleanSearchWithIndegreeRankAndFrequencyCount() {
-    List result = normalBooleanSearch();
+void SearchEngine::booleanSearchWithIndegreeRankAndFrequencyCount(string &inputTerm) {
+    List result = normalBooleanSearch(inputTerm);
     auto all = new int[result.getSize()];
     auto freq = new int[result.getSize()];
     result.getAll(all, freq);
@@ -142,12 +139,24 @@ void SearchEngine::booleanSearchWithIndegreeRankAndFrequencyCount() {
     delete[]all;
     qsort(pages, result.getSize(), sizeof(Page), compareByIndegreeAndFrequency);
     std::cout << "find in " << result.getSize() << " pages" << std::endl;
+    int count = 0;
     for (int i = 0; i < result.getSize(); i++) {
-        std::ifstream infile(CONTENTFILENAME + std::to_string(pages[i].docID) + ".txt");
-        string url;
-        infile >> url;
+        std::ifstream infile(NEWCONTENTFILENAME + std::to_string(pages[i].docID) + ".txt");
+        string url, title, s;
+        std::getline(infile, url);
+        std::getline(infile, title);
         infile.close();
+        std::cout << "No. " << i + 1 << " result " << title << " with indegree " << pages[i].inDegree
+                  << std::endl;
         std::cout << "No. " << i + 1 << " result " << url << " with indegree " << pages[i].inDegree
                   << std::endl;
+        count++;
+        if (count == 5) {
+            char c;
+            std::cin >> c;
+            if (c != 'c')
+                break;
+            count = 0;
+        }
     }
 }
