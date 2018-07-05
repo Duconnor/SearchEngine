@@ -14,6 +14,8 @@ IF(APPLE) # mac os
     ADD_DEFINITIONS(-std=c++0x)
 endif()
 
+add_compile_options(-std=c++11)
+
 # cmake .. -DENC=GBK
 # IF (DEFINED ENC)
 #     ADD_DEFINITIONS(-DCPPJIEBA_${ENC})
