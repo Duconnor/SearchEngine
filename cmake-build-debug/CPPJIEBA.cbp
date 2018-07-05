@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPJIEBA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\gtest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SearchEngine">
+				<Option output="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/SearchEngine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 SearchEngine"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SearchEngine/fast">
+				<Option output="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/SearchEngine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 SearchEngine/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/include"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/."/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/include"/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/."/>
+					<Add directory="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duyx/ClionProjects/SearchEngine/cmake-build-debug/deps/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/invertedlist.cpp">
+			<Option target="SearchEngine"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/invertedlist.h">
+			<Option target="SearchEngine"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/main.cpp">
+			<Option target="SearchEngine"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/searchengine.cpp">
+			<Option target="SearchEngine"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/searchengine.h">
+			<Option target="SearchEngine"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+		<Unit filename="/Users/duyx/ClionProjects/SearchEngine/deps/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\gtest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

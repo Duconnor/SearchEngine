@@ -6,9 +6,9 @@
 
 #include "invertedlist.h"
 
-const string CONTENTFILENAME = "/Users/duyx/ClionProjects/SearchEngine/content_final/content";
-const string NEWCONTENTFILENAME = "/Users/duyx/ClionProjects/SearchEngineWithJieba/cppjieba/content/content";
-const string LINKRELATIONFILENAME = "/Users/duyx/ClionProjects/SearchEngine/linkrelation.txt";
+const string CONTENTFILENAME = "../content_final/content";
+const string NEWCONTENTFILENAME = "../content/content";
+const string LINKRELATIONFILENAME = "../linkrelation.txt";
 
 class SearchEngine {
 private:

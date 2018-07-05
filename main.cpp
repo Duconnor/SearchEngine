@@ -120,7 +120,7 @@ void demo() {
             std::cout << "Showing name search" << std::endl;
         else
             std::cout << "Showing search latency" << std::endl;
-        std::cout << "Now search" << stringArray[count];
+        std::cout << "Now search " << stringArray[count];
         searchEngine.booleanSearchWithIndegreeRankAndFrequencyCount(stringArray[count]);
         count++;
         std::cout << "next?:";
