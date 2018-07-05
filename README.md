@@ -14,7 +14,7 @@
 
 ### 编译   
 ```sh
-git clone -depth=1 --branch=master git://github.com/Duconnor/SearchEngine.git
+git clone --depth=1 --branch=master git://github.com/Duconnor/SearchEngine.git
 cd SearchEngine
 mkdir build
 cd build
